@@ -1,8 +1,62 @@
 .navbar{
-    background-color: aquamarine;
+    background-color: black;
+    border-radius: 40px;
   
 }
 .navbar li{
     list-style: none;
     float:left;
+    padding-top: 5px;
+    margin: 13px 22px;
+ 
 }
+.navbar li a{
+    text-decoration: none;
+    padding: 3px 3px;
+    color: white;
+}
+
+ .navbar li a:hover{
+   color: orangered;
+}
+
+.navbar ul{
+    overflow: hidden;
+}
+.search{
+    float: right;
+    padding: 13px 75px;
+   
+}
+
+.search input{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 129px;
+    padding: 3px 17px;
+}
+
+.info{
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+}
+
+.container{
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: repeat(3,1fr);
+   
+}
+
+
+
+
+
+
+
+
+body{
+    background-color: antiquewhite;
+}
+
