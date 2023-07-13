@@ -78,11 +78,12 @@ a:hover{
 
 .xyz{
     background-color: black;
-    
+    min-height: 100%;
     color: white;
     position: sticky;
     top: 100%;
     
+    margin: 0%;
    
   
    
@@ -95,9 +96,12 @@ a:hover{
 
 body{
     background-color: antiquewhite;
-    min-height: 100vh;
+height: 100%;
     padding: 0px;
     margin: 0%;
 }
 
+html{
+    height: 100%;
+}
 
