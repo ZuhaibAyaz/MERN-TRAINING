@@ -86,12 +86,6 @@ code {
 
 .f-links{
   list-style: none;
-  text-align: center;
- 
-}
-
-.address{
-  text-align: center;
 }
 
 a{
@@ -104,24 +98,16 @@ a:hover{
 
 .footer{
   background-color: black;
- 
+
   color: white;
-
-
-
   text-align: center;
   left: 0%;
   right: 0%;
   bottom: 0%;
 padding: 40px;
 
- 
 }
 
-.about{
- padding: 5px;
- text-align: center;
-}
 
 
 
